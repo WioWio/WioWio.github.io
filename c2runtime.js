@@ -11338,7 +11338,7 @@ cr.plugins_.Audio = function(runtime)
 			else
 			{
 				this.instanceObject = new Audio();
-				this.instanceObject.autoplay = false;
+				this.instanceObject.autoplay = true;
 				this.instanceObject.src = buffer_.bufferObject.src;
 				add_end_listener = true;
 			}
